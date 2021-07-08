@@ -1,0 +1,35 @@
+@media(max-width: 1299px) {
+  aside {
+    top: 100px;
+  }
+}
+
+@media(max-width: 800px) {
+  aside {
+    top: 250px;
+    left: 50px;
+  }
+
+  figure {
+    display: none;
+  }
+
+  .info {
+    width: 320px;
+  }
+
+  .header {
+    &_1 {
+      padding-bottom: 80px;
+    }
+    &_2 {
+      padding-top: 180px;
+    }
+  }
+
+  ul {
+    position: static;
+    margin-bottom: 100px;
+  }
+}
+
